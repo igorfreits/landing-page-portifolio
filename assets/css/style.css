@@ -254,13 +254,26 @@
 
     .grid-one-content {
         display: block;
-
     }
-
 
     .menu {
         bottom: 0;
         text-align: center;
+    }
+
+    .two,
+    .one {
+        width: 60%;
+        box-sizing: border-box;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .subtitle {
+        text-align: center;
+        justify-content: center;
     }
 
     .menu-content,

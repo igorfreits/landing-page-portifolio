@@ -24,8 +24,7 @@
 
 <body>
     <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
-    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
-
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1>
@@ -33,7 +32,7 @@
             </h1>
 
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#igorfreits">Home</a></li>
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="#projects">Projetos</a></li>
